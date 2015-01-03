@@ -18,7 +18,7 @@ body {
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
-    color: $text-color;
+    color: $main-type-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }
@@ -43,6 +43,38 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+}
+
+.main-info a {
+    color: $darker-type-color;
+    transition: all 250ms ease;
+    &:hover {
+        background-color: $main-type-color;
+        color: $background-color;
+    }
+}
+
+.main-info {
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1.2em;
+    max-width: 30em;
+}
+
+.site-footer {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.site-footer a {
+    color: $main-type-color;
+    text-decoration: none;
+    transition: all 250ms ease;
+    &:hover {
+        background-color: $main-type-color;
+        color: $background-color;
+        
+    }
 }
 
 
