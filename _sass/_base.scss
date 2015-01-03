@@ -58,7 +58,6 @@ img {
     font-size: 3em;
     font-weight: 700;
     line-height: 1.2em;
-    max-width: 30em;
 }
 
 .site-footer {
@@ -74,6 +73,16 @@ img {
         background-color: $main-type-color;
         color: $background-color;
         
+    }
+}
+
+@include media-query($on-palm) {
+    .main-info {
+        font-size: 2.2em;
+    }
+
+    .site-footer {
+        font-size: 1.5em;
     }
 }
 
