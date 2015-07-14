@@ -1,0 +1,38 @@
+---
+-
+    name: "#InTheirWords"
+    date: "April 2015"
+    description: "``"
+    image: "intheirwords.jpg"
+    url: "http://www.usatoday.com/pages/interactives/InTheirWords-same-sex-marriage/#"
+-
+    name: "Twitter Political Issues Index"
+    date: "October 2014"
+    description: ""
+    image: "twitterindex.jpg"
+    url: "http://www.gannett-cdn.com/experiments/usatoday/2014/10/election-topics/"
+-
+    name: "GM Recalls infographic"
+    date: "August 2014"
+    description: ""
+    image: "gm.jpg"
+    url: "http://www.gannett-cdn.com/experiments/usatoday/2014/gm-recall/index.html"
+-
+    name: "7 Spelling Bee Words"
+    date: "May 2014"
+    description: ""
+    image: "spellingbee.jpg"
+    url: "http://www.usatoday.com/pages/interactives/spelling-bee/"
+-
+    name: "Destructive Gas Leaks"
+    date: "September 2014"
+    description: ""
+    image: "gasleaks.jpg"
+    url: "http://www.gannett-cdn.com/experiments/usatoday/2014/gas-leaks/"
+-
+    name: "USA TODAY Summer Music Festivals"
+    date: "April 2015"
+    description: ""
+    image: "festivals.jpg"
+    url: "http://www.usatoday.com/pages/interactives/2015-music-festivals/"
+
