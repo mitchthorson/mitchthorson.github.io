@@ -1,10 +1,7 @@
 html, body, 
 
 .content-wrap {
-    // display: flex;
-    // flex-direction: column;
     height: 100%;
-    // justify-content: flex-end;
 }
 
 .main-img {
@@ -21,14 +18,15 @@ html, body,
 }
 
 .social-links {
-    // border-bottom: solid 1px $main-type-color;
-    // border-top: solid 1px $main-type-color;
     margin-top: 0.5em;
     padding-top: 0.5em; 
 }
 
 .main-content-wrapper {
     margin-top: 500px;
+    @media (max-height: 500px) {
+        margin-top: 300px;
+    }
 }
 
 @media (min-width: 1600px) {
