@@ -4,18 +4,19 @@
   {% include head.html %}
 
   <body>
+    <div class="content-wrap">
+      {% include header.html %}
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+      {{ content }}
     
 
-    {% include footer.html %}
+      {% include footer.html %}
     </div>
-  </body>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="//use.typekit.net/lys5knt.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

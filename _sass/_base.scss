@@ -54,15 +54,34 @@ img {
     }
 }
 
+/******
+Main text
+******/
+
 .main-info {
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.2em;
+    max-width: 600px;
+    margin: 1em auto;
+    width: 90%;
+}
+
+.main-greeting {
     font-size: 3em;
     font-weight: 700;
-    line-height: 1.2em;
+    line-height: 1em;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .site-footer {
     font-weight: 300;
-    font-size: 2em;
+    font-size: 1.5em;
+    margin: 0 auto;
+    width: 90%;
 }
 
 .site-footer a {
@@ -77,15 +96,22 @@ img {
 }
 
 @include media-query($on-palm) {
-    .main-info {
+    .main-greeting {
         font-size: 2.2em;
     }
 
     .site-footer {
-        font-size: 1.5em;
+        // font-size: 1.5em;
     }
 }
 
 
 
 
+@include media-query($on-palm) {
+    .main-portrait {
+        // height: 400px;
+        // position: static;
+        // width: 100%;
+    }
+}

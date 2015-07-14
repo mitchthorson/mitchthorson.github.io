@@ -3,10 +3,21 @@ layout: default
 ---
 
 <div class="home">
+    <div class="main-portrait-cover main-portrait-cover-js"></div>
+    <div class="main-portrait"></div>
+    <div class="main-content-wrapper">
+        <h1 class="main-greeting">Mitchell Thorson</h1>
 
-  <img src="img/me.png" alt="Mitchell Thorson" class="main-img">
+        <p class="main-info">I am a web developer and designer at USA TODAY. I <a href="http://www.usatoday.com/pages/interactives/InTheirWords-same-sex-marriage/#" target="_blank"> help</a> <a href="http://www.gannett-cdn.com/experiments/usatoday/2014/10/election-topics/" target="_blank">tell</a> <a href="http://www.gannett-cdn.com/experiments/usatoday/2014/gm-recall/index.html" target="_blank">interactive</a> <a href="http://usatoday30.usatoday.com/exp/spelling-bee/index.html" target="_blank">stories</a> as a part of the <a href="https://github.com/USATODAY" target="_blank">Story Engineering team</a>.</p>
+    </div>
+</div>
 
-  <p class="main-info">Hello! My name is Mitchell Thorson and I am a web developer and designer at USA TODAY. I <a href="http://www.usatoday.com/pages/interactives/InTheirWords-same-sex-marriage/#" target="_blank"> help</a> <a href="http://www.gannett-cdn.com/experiments/usatoday/2014/10/election-topics/" target="_blank">tell</a> <a href="http://www.gannett-cdn.com/experiments/usatoday/2014/gm-recall/index.html" target="_blank">interactive</a> <a href="http://usatoday30.usatoday.com/exp/spelling-bee/index.html" target="_blank">stories</a> as a part of the <a href="https://github.com/USATODAY" target="_blank">Story Engineering team</a>.</p>
-
-
+<div class="project-wrapper">
+    <ul class="project-list">
+        {% for project in site.data.projects %}
+        <li class="project-list-item">
+            {{ project.name }}
+        </li>
+        {% endfor %}
+    </ul>
 </div>
