@@ -13,8 +13,9 @@
       {% include footer.html %}
     </div>
 </body>
-<script src="js/jquery.min.js"></script>
-<script src="js/main.js"></script>
+{% for script in site.data.scripts %}
+<script src="js/{{script.filename}}.js"></script>
+{% endfor %}
 <script src="//use.typekit.net/lys5knt.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 <script>

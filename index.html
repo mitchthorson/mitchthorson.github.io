@@ -2,22 +2,36 @@
 layout: default
 ---
 
-<div class="home">
+<section class="home">
     <div class="main-portrait-cover main-portrait-cover-js"></div>
     <div class="main-portrait"></div>
     <div class="main-content-wrapper">
         <h1 class="main-greeting">Mitchell Thorson</h1>
 
-        <p class="main-info">I am a web developer and designer at USA TODAY. I <a href="http://www.usatoday.com/pages/interactives/InTheirWords-same-sex-marriage/#" target="_blank"> help</a> <a href="http://www.gannett-cdn.com/experiments/usatoday/2014/10/election-topics/" target="_blank">tell</a> <a href="http://www.gannett-cdn.com/experiments/usatoday/2014/gm-recall/index.html" target="_blank">interactive</a> <a href="http://usatoday30.usatoday.com/exp/spelling-bee/index.html" target="_blank">stories</a> as a part of the <a href="https://github.com/USATODAY" target="_blank">Story Engineering team</a>.</p>
+        <p class="main-info">I am a web developer and designer at USA TODAY. I help tell stories in the newsroom</p>
     </div>
-</div>
+    <div class="social-links">
+        <a href="https://github.com/mitchthorson" class="footer-link" target="_blank"><i class="icon-github"></i>See what I'm working on </a> 
+        <a href="https://twitter.com/mitchthorson" class="footer-link" target="_blank"><i class="icon-twitter"></i> See what I'm Tweeting about </a> 
+        <a href="http://www.rdio.com/people/MitchellThorson/" class="footer-link" target="_blank"><i class="icon-rdio"></i> See what I'm listening to </a> 
+        <a href="http://instagram.com/mitchthorson" class="footer-link" target="_blank"><i class="icon-instagram"></i> See some photos i took </a>
+        <a href="http://mitchellthorson.tumblr.com/" class="footer-link" target="_blank"><i class="icon-tumblr"></i> See what I think is interesting </a>
+        <a href="mailto:mitch.thorson@gmail.com" class="footer-link"><i class="icon-mail"></i> Email me </a></p>
+    </div>
+</section>
 
-<div class="project-wrapper">
+<section class="project-wrapper">
+    <h2 class="section-heading">Projects</h2>
     <ul class="project-list">
         {% for project in site.data.projects %}
-        <li class="project-list-item">
-            {{ project.name }}
-        </li>
+        <a href="{{project.url}}" target="_blank">
+            <li class="project-list-item">
+                <div class="project-list-item-image"><img src="img/{{project.image}}" alt="{{project.name}}"></div>
+                <div class="project-list-item-content">
+                    <h3 class="project-name">{{project.name}}</h3>
+                </div>
+            </li>
+        </a>
         {% endfor %}
     </ul>
-</div>
+</section>

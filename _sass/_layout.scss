@@ -20,8 +20,9 @@ html, body,
     top: 0;
 }
 
-.site-footer {
-    border-top: solid 1px $main-type-color;
+.social-links {
+    // border-bottom: solid 1px $main-type-color;
+    // border-top: solid 1px $main-type-color;
     margin-top: 0.5em;
     padding-top: 0.5em; 
 }
@@ -57,7 +58,7 @@ Main portrait
 }
 
 .main-portrait-cover {
-    background-color: $background-color;
+    background-color: lighten($background-color, 20);
     bottom: 0;
     left: 0;
     opacity: 0;
