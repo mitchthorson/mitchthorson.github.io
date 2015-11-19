@@ -1,5 +1,11 @@
 ---
 -
+    name: "USA TODAY's 2016 Presidential Poll Tracker"
+    date: "October 2015"
+    description: "``"
+    image: "polltracker.jpg"
+    url: "http://www.usatoday.com/pages/interactives/poll-tracker-2016/"
+-
     name: "#InTheirWords"
     date: "April 2015"
     description: "``"
