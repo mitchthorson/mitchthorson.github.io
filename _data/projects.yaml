@@ -1,6 +1,18 @@
 ---
 -
-    name: "USA TODAY's 2016 Presidential Poll Tracker"
+    name: "Trump/Clinton Nation"
+    date: "July 2016"
+    description: "``"
+    image: "trump-nation.jpg"
+    url: "http://trumpnation.usatoday.com"
+-
+    name: "Pumped Dry"
+    date: "December 2015"
+    description: "``"
+    image: "pumped-dry.jpg"
+    url: "http://groundwater.usatoday.com"
+-
+    name: "2016 Presidential Primary Poll Tracker"
     date: "October 2015"
     description: "``"
     image: "polltracker.jpg"
