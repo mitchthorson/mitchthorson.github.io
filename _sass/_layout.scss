@@ -23,7 +23,7 @@ html, body,
 }
 
 .main-content-wrapper {
-    margin-top: 500px;
+    margin-top: 50px;
     @media (max-height: 500px) {
         margin-top: 300px;
     }
@@ -42,7 +42,7 @@ Main portrait
 ******/
 
 .main-portrait {
-    background-image: url(../img/portrait.jpg);
+    // background-image: url(../img/portrait.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

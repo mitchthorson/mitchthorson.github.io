@@ -5,8 +5,10 @@
 
 .section-heading {
     font-size: 2em;
-    text-align: center;
+    // text-align: center;
     text-shadow: $text-shadow;
+    max-width: 1000px;
+    margin: 1em auto;
 }
 
 .project-list {
@@ -30,7 +32,7 @@
 .project-list-item {
     background: white;
     @include BoxShadowHelper(2);
-    color: $background-color;
+    color: $text-color;
     float: left;
     list-style: none;
     margin-bottom: 2em;

@@ -8,20 +8,18 @@ layout: default
     <div class="main-content-wrapper">
         <h1 class="main-greeting">Mitchell Thorson</h1>
 
-        <p class="main-info">I am a web developer and designer at USA TODAY. I help tell stories in the newsroom.</p>
+        <p class="main-info">I am a web developer, designer, and journalist. I help tell stories with data and visuals.</p>
     </div>
     <div class="social-links">
-        <a href="https://github.com/mitchthorson" class="footer-link" target="_blank"><i class="icon-github"></i>See what I'm working on </a> 
-        <a href="https://twitter.com/mitchthorson" class="footer-link" target="_blank"><i class="icon-twitter"></i> See what I'm Tweeting about </a> 
-        <a href="http://www.rdio.com/people/MitchellThorson/" class="footer-link" target="_blank"><i class="icon-rdio"></i> See what I'm listening to </a> 
-        <a href="http://instagram.com/mitchthorson" class="footer-link" target="_blank"><i class="icon-instagram"></i> See some photos i took </a>
-        <a href="http://mitchellthorson.tumblr.com/" class="footer-link" target="_blank"><i class="icon-tumblr"></i> See what I think is interesting </a>
-        <a href="mailto:mitch.thorson@gmail.com" class="footer-link"><i class="icon-mail"></i> Email me </a></p>
+        <a href="https://github.com/mitchthorson" class="footer-link" target="_blank"><i class="icon-github"></i>Github </a> 
+        <a href="https://twitter.com/mitchthorson" class="footer-link" target="_blank"><i class="icon-twitter"></i> Twitter </a> 
+        <a href="mailto:mitch.thorson@gmail.com" class="footer-link"><i class="icon-mail"></i> Email </a>
+        <a href="static/THORSON_resume.pdf" target="_blank" class="footer-link"> Resumé</a>
     </div>
 </section>
 
 <section class="project-wrapper">
-    <h2 class="section-heading">Projects</h2>
+    <h2 class="section-heading">Selected projects:</h2>
     <ul class="project-list">
         {% for project in site.data.projects %}
         <a href="{{project.url}}" target="_blank">

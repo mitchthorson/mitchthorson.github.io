@@ -62,9 +62,9 @@ Main text
     font-size: 1.2em;
     font-weight: 400;
     line-height: 1.2em;
-    max-width: 550px;
+    max-width: 1000px;
     margin: 1em auto;
-    text-shadow: $text-shadow;
+    // text-shadow: $text-shadow;
     width: 90%;
 }
 
@@ -73,10 +73,11 @@ Main text
     font-weight: 700;
     line-height: 1em;
     margin: 0 auto;
-    max-width: 600px;
-    text-align: center;
-    text-shadow: $text-shadow;
-    text-transform: uppercase;
+    max-width: 1000px;
+    width: 90%;
+    // text-align: center;
+    // text-shadow: $text-shadow;
+    // text-transform: uppercase;
 }
 
 .social-links {
