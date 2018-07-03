@@ -1,5 +1,11 @@
 ---
 -
+    name: "The Wall"
+    date: "September 2017"
+    description: "``"
+    image: "thewall.jpg"
+    url: "https://www.usatoday.com/border-wall/us-mexico-interactive-border-map/"
+-
     name: "How Trump changed the Obama landscape"
     date: "November 2016"
     description: "``"
@@ -11,12 +17,6 @@
     description: "``"
     image: "election-unfolded.jpg"
     url: "https://www.usatoday.com/pages/interactives/how-the-election-unfolded/"
--
-    name: "Trump/Clinton Nation"
-    date: "July 2016"
-    description: "``"
-    image: "trump-nation.jpg"
-    url: "http://trumpnation.usatoday.com"
 -
     name: "Pumped Dry"
     date: "December 2015"
